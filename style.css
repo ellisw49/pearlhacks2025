@@ -1,12 +1,20 @@
-body {
-    background-color: #ffd0cc;
-        color: #9a5c38;
-        text-align: center;
-        margin-top: 80px;
+/* Palette CSS taken from Coolors.co*/
+:root{ /* CSS HEX */
+--space-cadet: #283044ff;
+--coral-pink: #f4978eff;
+--melon: #f8ad9dff;
+--apricot: #fbc4abff;
+--light-blue: #c1eeffff;
 }
-button {
-    background-color: #9a5c38;
-    color: #ffd0cc;
-    font-size: 15px;
-    margin: 15px;
+
+.columns {
+    column-count: 2;
+  }
+
+body {
+    background-color: var(--apricot);
+        color: var(--space-cadet);
+        text-align: center;
+        margin-top: 150px;
+        font-size: small;
 }
